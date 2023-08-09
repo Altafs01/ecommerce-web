@@ -1,0 +1,23 @@
+
+
+/* .container-fluid img{
+    width: 3vw;
+    height: 3vh;
+} */
+
+.chair h1{
+    justify-content: center;
+}
+
+.container-product img{
+    height: 20vh;
+    width: 20vw;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-position: center;
+    box-shadow: white;
+
+}
