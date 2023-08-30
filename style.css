@@ -1,9 +1,8 @@
 
-
-/* .container-fluid img{
-    width: 3vw;
-    height: 3vh;
-} */
+body{
+    margin-left: 50px;
+    margin-right: 100px;
+}
 
 .cart img {
     /* border: 1px solid; */
@@ -64,7 +63,44 @@
 .c-3 img{
     height: 20px;
     width: 20px;
-    /* margin-left: 40px; */
+}
+
+
+
+.c-3 {
+   margin-left: 150px; 
+}
+
+.d-3{
+    text-align: center;
+    /* margin-top: 80px; */
+}
+
+.n-3{
+    list-style: none;
+}
+
+.n-3 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.m-3{
+    list-style: none;
+}
+
+.m-3 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.q-3{
+    list-style: none;
+}
+
+.footer{
+    margin-left: 100px;
+    margin-right: 200px;
 }
 
 
