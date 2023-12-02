@@ -1,55 +1,69 @@
-
-body{
-    margin-left: 50px;
-    margin-right: 100px;
+body {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
-
-.cart img {
-    height: 40px;
-    width: 50px;
-}
-
-.heart img{
-    height: 40px;
-    width: 40px;   
-}
-
-.contact img{
-    width: 20px;
-    height: 20px;   
-}
-
-.a-1{
+.a-1 {
     gap: 40px;
 }
 
- .chair{
+.chair {
     padding: 100px;
 }
 
-.b-3 img{
+.b-3 img {
     height: 20px;
     width: 10px;
 }
 
-.d-4{
+.d-4 {
     gap: 50px;
 }
 
-.c-3 img{
+.c-3 img {
     height: 20px;
     width: 20px;
 }
 
 .c-3 {
-   margin-left: 140px; 
+    margin-left: 140px;
 }
 
-.footer{
-    margin-left: 100px;
-    margin-right: 200px;
+@media screen and (max-width : 600px) {
+    
+    .body{
+         margin-right: 0px;
+         padding: 0px;
+    }
+
+    .panel_2{
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .sp{
+        font-size: 10px;
+    }
+
+    .a-2{
+        text-align: left;
+    }
+
+   .digital p {
+    width: 100px;
+   }
+
+   .client_card2{
+    margin-top: 20px;
+   }
+    
+    .footer{
+        flex-wrap: wrap;
+    }
+    .q-3 form input{  
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
 }
-
-
